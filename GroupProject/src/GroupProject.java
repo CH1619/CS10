@@ -59,7 +59,7 @@ public class GroupProject
 		
 		if (answer == Canswer)
 		{
-			System.out.println("You got it right! Congradulations!!");
+			System.out.println("You got it right! Congratulations!!");
 		}
 		else
 		{
@@ -69,4 +69,13 @@ public class GroupProject
 	}
 
 }
-
+/* Screen Dump
+1 : Addition
+2 : Subtraction
+3 : Division
+4 : Multiplication
+4
+What is 4*8?
+32
+You got it right! Congratulations!!
+*/
