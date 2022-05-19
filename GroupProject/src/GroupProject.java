@@ -57,7 +57,7 @@ public class GroupProject
 				 break;
 		}
 		
-		if (answer != Canswer)
+		if (answer == Canswer)
 		{
 			System.out.println("You got it right! Congradulations!!");
 		}
