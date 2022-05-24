@@ -1,3 +1,6 @@
+/* Screen Dump
+Just swiched the numbers around, if anyone has something to add, feel free
+*/
 
 import java.util.Scanner;
 
