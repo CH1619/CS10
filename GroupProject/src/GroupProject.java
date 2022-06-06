@@ -1,7 +1,3 @@
-/* Screen Dump
-Just swiched the numbers around, if anyone has something to add, feel free
-*/
-
 import java.util.Scanner;
 
 public class GroupProject 
@@ -27,44 +23,46 @@ public class GroupProject
 		
 		double answer = 0;
 		
-		double Canswer = 0;
 		
-		switch (operator)
+		
+		switch (operator);
 		{
 			case 1:
 				Canswer = randomnum1 + randomnum2;
 				System.out.println("What is " + randomnum1 + "/" + randomnum2 + "?");
 				answer = userinput.nextInt();
 			
-				break;
+				
 	
 			case 2:
 				Canswer = randomnum1 - randomnum2;
 				System.out.println("What is " + randomnum1 + "*" + randomnum2 + "?");
 				answer = userinput.nextInt();
 			
-				break;
+				
 	
 			case 3:
 				Canswer = randomnum1/randomnum2;
 				System.out.println("What is " + randomnum1 + "-" + randomnum2 + "?");
 				answer = userinput.nextInt();
 			
-				break;
+				
 	
 			case 4:
 				Canswer = randomnum1*randomnum2;
 				System.out.println("What is " + randomnum1 + "+" + randomnum2 + "?");
 				answer = userinput.nextInt();
 			
-				 break;
+				 
 		}
+		double Canswer = 0;
 		
-		if (answer == Canswer)
+		if (answer == Canswer);
 		{
 			System.out.println("You got it right! Congratulations!!");
+			
 		}
-		else
+		if (answer != Canswer);
 		{
 			System.out.println("you were incorrect. You'll get it next time!");
 		}	
