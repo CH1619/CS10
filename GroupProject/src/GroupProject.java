@@ -12,18 +12,18 @@ public class GroupProject
 	
 		int randomnum2 = 1 + (int) (Math.random() * 10);
 	
-		System.out.println("Select an operator by typing the associated number: ");
+		System.out.println("Select an operator by typing the associated number: ");//prompting or operator
 	
 		System.out.println("1 : Addition"); 
 		System.out.println("2 : Subtraction");
 		System.out.println("3 : Division");
 		System.out.println("4 : Multiplication");
 	
-		int operator = userinput.nextInt();
+		int operator = userin.nextInt();//record operator
 		
-		double answer = 0;
+		double answer = 0;//creating answers
 		
-		
+		double Canswer = 0;
 		
 		switch (operator);
 		{
@@ -55,14 +55,14 @@ public class GroupProject
 			
 				 
 		}
-		double Canswer = 0;
+		
 		
 		if (answer == Canswer);
 		{
 			System.out.println("You got it right! Congratulations!!");
 			
 		}
-		if (answer != Canswer);
+		else (answer != Canswer);
 		{
 			System.out.println("you were incorrect. You'll get it next time!");
 		}	
@@ -70,13 +70,3 @@ public class GroupProject
 	}
 
 }
-/* Screen Dump
-1 : Addition
-2 : Subtraction
-3 : Division
-4 : Multiplication
-4
-What is 4*8?
-32
-You got it right! Congratulations!!
-*/
