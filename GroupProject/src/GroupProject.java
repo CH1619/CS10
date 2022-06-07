@@ -19,45 +19,45 @@ public class GroupProject
 		System.out.println("3 : Division");
 		System.out.println("4 : Multiplication");
 	
-		int operator = userin.nextInt();//record operator
+		int operator = userinput.nextInt();//record operator
 		
 		double answer = 0;//creating answers
 		
 		double Canswer = 0;
 		
-		switch (operator);
+		switch (operator);//switch statement for operators
 		{
 			case 1:
-				Canswer = randomnum1 + randomnum2;
-				System.out.println("What is " + randomnum1 + "/" + randomnum2 + "?");
+				Canswer = randomnum1 - randomnum2;
+				System.out.println("What is " + randomnum1 + "+" + randomnum2 + "?");
 				answer = userinput.nextInt();
 			
 				
 	
 			case 2:
-				Canswer = randomnum1 - randomnum2;
-				System.out.println("What is " + randomnum1 + "*" + randomnum2 + "?");
+				Canswer = randomnum1 + randomnum2;
+				System.out.println("What is " + randomnum1 + "-" + randomnum2 + "?");
 				answer = userinput.nextInt();
 			
 				
 	
 			case 3:
 				Canswer = randomnum1/randomnum2;
-				System.out.println("What is " + randomnum1 + "-" + randomnum2 + "?");
+				System.out.println("What is " + randomnum1 + "/" + randomnum2 + "?");
 				answer = userinput.nextInt();
 			
 				
 	
 			case 4:
 				Canswer = randomnum1*randomnum2;
-				System.out.println("What is " + randomnum1 + "+" + randomnum2 + "?");
+				System.out.println("What is " + randomnum1 + "*" + randomnum2 + "?");
 				answer = userinput.nextInt();
 			
 				 
 		}
 		
 		
-		if (answer == Canswer);
+		if (answer == Canswer);//checking answer
 		{
 			System.out.println("You got it right! Congratulations!!");
 			
